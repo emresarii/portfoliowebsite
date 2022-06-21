@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -21,13 +22,7 @@ body {
   width: 100vw;
 }
 
-.selam{
-  font-size: 50px;
-}
-
-
-
-.wrapper:before {
+/* .wrapper:before {
   content: "";
   z-index: -1;
   position: absolute;
@@ -53,4 +48,4 @@ body {
   left: 0;
   background: inherit;
   border-radius: inherit;
-}
+} */
