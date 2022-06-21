@@ -1,5 +1,8 @@
 import "./components/tab";
 import { initCounterAnimation } from "./components/counter";
+
 (() => {
-  initCounterAnimation();
+  document.addEventListener('DOMContentLoaded', () => {
+    initCounterAnimation();
+  });
 })();
