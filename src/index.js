@@ -1,4 +1,5 @@
-import "./components/tab"
-import "./components/counter"
+import "./components/tab";
+import { initCounterAnimation } from "./components/counter";
 (() => {
+  initCounterAnimation();
 })();
